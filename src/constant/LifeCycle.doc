@@ -1,0 +1,22 @@
+Mounting:
+    constructor()
+    static getDerivedStateFromProps()
+    render()
+    componentdidMount()
+    
+
+Updating:
+    static getDerivedStateFromProps()
+    shouldComponentUpdate()
+    render()
+    getSnapShotBeforeUpdate()
+    componentDidUpdate()
+
+Unmounting:
+    componentWillUnmount()
+Promise resolve reject
+=>this will call using then and catch
+arrow function cut off the bind this in class component
+=> if we use arrow function we cann call function directly without {()=>function}
+fetch will render normal format
+axios will render JSON formal
